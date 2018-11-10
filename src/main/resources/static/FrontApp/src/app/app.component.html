@@ -1,0 +1,12 @@
+<form #id="ngForm" (submit)="save(f.value)" >
+  <div>
+    <label>Nom</label>
+    <input name="nom" ngModel type="text" />
+  </div>
+  <div>
+    <label>Prenom</label>
+    <input name="prenom" ngModel type="text" />
+  </div>
+
+  <input type="submit" value="valider" />
+</form>
